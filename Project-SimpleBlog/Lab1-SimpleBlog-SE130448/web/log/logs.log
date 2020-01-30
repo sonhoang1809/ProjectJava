@@ -1,0 +1,4 @@
+2020-01-29 22:17:18.317 ERROR [http-nio-0.0.0.0-8084-exec-10] (UserDAO.java:150) - Error at getAvatarUser(String email): com.microsoft.sqlserver.jdbc.SQLServerException: The statement is closed.
+2020-01-29 22:17:18.368 ERROR [http-nio-0.0.0.0-8084-exec-7] (ArticleDAO.java:199) - Error at getNumberArticle(int statusArticleID): com.microsoft.sqlserver.jdbc.SQLServerException: The statement is closed.
+2020-01-31 00:55:38.484 ERROR [http-nio-0.0.0.0-8084-exec-30] (UserDAO.java:150) - Error at getAvatarUser(String email): com.microsoft.sqlserver.jdbc.SQLServerException: The statement is closed.
+2020-01-31 01:18:23.435 ERROR [http-nio-0.0.0.0-8084-exec-29] (PostArticleController.java:117) - Error at PostArticleController: java.lang.ArrayIndexOutOfBoundsException: 0
