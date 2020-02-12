@@ -1,0 +1,24 @@
+2020-02-08 14:53:44.424 ERROR [http-nio-0.0.0.0-8084-exec-3] (FoodDAO.java:76) - Error at getNumberArticle(): com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'FoodID'.
+2020-02-08 16:20:35.642 ERROR [http-nio-0.0.0.0-8084-exec-59] (KindDAO.java:63) - Error at getAllKindFood(): com.microsoft.sqlserver.jdbc.SQLServerException: The TDS protocol stream is not valid.
+2020-02-08 16:20:35.656 ERROR [http-nio-0.0.0.0-8084-exec-60] (KindDAO.java:63) - Error at getAllKindFood(): com.microsoft.sqlserver.jdbc.SQLServerException: The connection is closed.
+2020-02-08 16:20:48.714 ERROR [http-nio-0.0.0.0-8084-exec-59] (KindDAO.java:63) - Error at getAllKindFood(): com.microsoft.sqlserver.jdbc.SQLServerException: The TDS protocol stream is not valid. Unexpected token TDS_RET_STAT (0x79).
+2020-02-08 16:32:45.572 ERROR [http-nio-0.0.0.0-8084-exec-119] (FoodDAO.java:76) - Error at getNumberFood(float priceLower, float priceHigher, int statusCode): com.microsoft.sqlserver.jdbc.SQLServerException: The requested operation is not supported on forward only result sets.
+2020-02-08 16:35:18.781 ERROR [http-nio-0.0.0.0-8084-exec-127] (FoodDAO.java:76) - Error at getNumberFood(float priceLower, float priceHigher, int statusCode): com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'rowcount'.
+2020-02-12 00:29:49.006 ERROR [http-nio-0.0.0.0-8084-exec-181] (AddAFoodToCartController.java:93) - Error at AddAFoodToCartController: java.lang.NullPointerException
+2020-02-12 00:34:36.689 ERROR [http-nio-0.0.0.0-8084-exec-186] (AddAFoodToCartController.java:93) - Error at AddAFoodToCartController: java.lang.NullPointerException
+2020-02-12 00:38:50.229 ERROR [http-nio-0.0.0.0-8084-exec-193] (AddAFoodToCartController.java:93) - Error at AddAFoodToCartController: java.lang.NullPointerException
+2020-02-12 00:41:21.770 ERROR [http-nio-0.0.0.0-8084-exec-198] (BillDAO.java:164) - Error at createNewBillForUser(String userID, int billNum): java.lang.IllegalArgumentException: Illegal pattern character 'I'
+2020-02-12 00:43:07.347 ERROR [http-nio-0.0.0.0-8084-exec-198] (AddAFoodToCartController.java:94) - Error at AddAFoodToCartController: java.lang.NullPointerException
+2020-02-12 00:45:15.961 ERROR [http-nio-0.0.0.0-8084-exec-205] (BillDAO.java:164) - Error at createNewBillForUser(String userID, int billNum): java.lang.IllegalArgumentException: Illegal pattern character 'I'
+2020-02-12 00:45:21.132 ERROR [http-nio-0.0.0.0-8084-exec-205] (AddAFoodToCartController.java:94) - Error at AddAFoodToCartController: java.lang.RuntimeException: javax.mail.AuthenticationFailedException: ;
+  nested exception is:
+	javax.mail.MessagingException: Exception reading response;
+  nested exception is:
+	java.net.SocketException: Invalid argument: recv failed
+2020-02-12 00:49:10.381 ERROR [http-nio-0.0.0.0-8084-exec-208] (AddAFoodToCartController.java:94) - Error at AddAFoodToCartController: java.lang.IllegalArgumentException: Illegal pattern character 'I'
+2020-02-12 00:53:02.376 ERROR [http-nio-0.0.0.0-8084-exec-231] (AddAFoodToCartController.java:94) - Error at AddAFoodToCartController: java.lang.IllegalArgumentException: Illegal pattern character 'I'
+2020-02-12 00:56:35.279 ERROR [http-nio-0.0.0.0-8084-exec-256] (FoodInBillDAO.java:135) - Error at insertProductToBill(FoodsInBillDTO dto): com.microsoft.sqlserver.jdbc.SQLServerException: The index 4 is out of range.
+2020-02-12 01:01:05.208 ERROR [http-nio-0.0.0.0-8084-exec-273] (AddAFoodToCartController.java:94) - Error at AddAFoodToCartController: java.lang.IllegalArgumentException: Illegal pattern character 'I'
+2020-02-12 01:04:06.600 ERROR [http-nio-0.0.0.0-8084-exec-277] (AddAFoodToCartController.java:94) - Error at AddAFoodToCartController: java.lang.IllegalArgumentException: Illegal pattern character 'I'
+2020-02-12 01:05:45.018 ERROR [http-nio-0.0.0.0-8084-exec-280] (AddAFoodToCartController.java:94) - Error at AddAFoodToCartController: java.lang.IllegalArgumentException: Illegal pattern character 'I'
+2020-02-12 01:07:41.321 ERROR [http-nio-0.0.0.0-8084-exec-279] (AddAFoodToCartController.java:94) - Error at AddAFoodToCartController: java.lang.IllegalArgumentException: Illegal pattern character 'I'
